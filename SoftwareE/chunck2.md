@@ -41,6 +41,34 @@ the same in the adress bar of your windows file explorer  you dont see the **"fi
 
 Any way in both there are 3 types of folders 
 
- - users or usr
- - apps or program files
- - OS files
+ - users or usr: Here there is a cummon folder named home, were all the data of your user is saved, also could happen
+that you encouter OS files or Apps files that are just for that user to use.
+
+ - apps or program files: Files your apps of programms need to  run and properly function
+
+ - OS files: the central files for your kernel to properly work
+
+same is happening with extentions. they are never shown in phones  or pcs by default, extentions are  3 or for letters that follows  a dot  after  
+the file name, they tell you and que OS what type of file is that one. Depending on the extention the OS and you  can 
+wait for a structure and format of the data inside lets revew some cummon extentions
+
+- txt: For plain text files
+- JPG :Join Photographic experts Grup: a standar of images files
+- mp4: A containner for videos. Video files are aa composition fo  a codec file an audio file and a subtitles file 
+ the extension of this files are H264 mp3 and osr
+- zip: Compress file that ses frequency  and binary trees to build a compression algoritm see the compress.py
+file in the repo for a little insigth
+- csv: Coma separated values  a format very cummon for  tabulated data, but they are not data base files.
+
+all files  have something call  header same as the formats of non volatil memories (drives) hete the first
+ 4 letters are the extention of the file then there is other information call meta data is information about the dile
+you can see all this if you use a hexadecimal text editor.
+
+## Data bases 
+
+they can be relational and non relational. The non relational can be grpah  based or  document based,
+ or you also could have key  value databases like reds . The relational data bases are the most cummon i thnik because 
+the oldest ones, the purpuse of all data bases is to avoid redundancie on the data structure but to bee eassyly write and read and also to store humungus amounts of data for this  the languge SQL is used, the most cummon data base engines used are sqlite,
+my sql, oracle and  postgress. why this matters well now you found your file or photo and you atept to save it in  the internet
+in some one else data base ( a social network and email service , a message service you pick) let us connect to the internet.
+

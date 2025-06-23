@@ -1,28 +1,33 @@
-a message from your friend: " have you already upload the photo ?" a simple thing that enmarcaretes a complex 
-and humongus network of cables  and protocols that allows you tow to comunicate, lets dive alittle deep in to the internet
+# A sea of cables and protocols
 
-First  you and your friends  exchanged keys when you ttoo added eachother in (message app) now when she pressed send
-the message she wrote was encryped using the key  you give her, your public key, and when the message arrives at 
-your phone before you even ipenned is de encrypted but with the key you did not share, your private key.
-This protocols of having 2 keys, one private and one publlic, to share the public  so others  encrypt the messages they send you
-and to de encrypt with your private key is call SSH. Now this only accounts for the security par.
+A message from your friend: "Have you already uploaded the photo?" — a simple thing that enmascarates a complex and humongous network of cables and protocols that allows you two to communicate. Let's dive a little deeper into the internet.
 
-## Bits and bytes
-a bit is an interruptor that can be eather on or off, in electronic this normally  relates whit having a low voltage or current 
-and is representet by a 0 and having a higth voltage or current  is represented by a 1 in a screen. A bit is eather a 0 or a 1
-If you grup 8 bits you have a byte. and with a byte you can reprecent not 8 numbers but 256 numbers... how?
+First, you and your friend exchanged keys when you two added each other in (message app). Now, when she pressed send, the message she wrote was encrypted using the key you gave her — your public key. When the message arrives at your phone, before you even open it, it is decrypted using the key you did not share — your private key.
 
-## Binary system
-Imagine you have powers of 2  in an arrage from 2^0 to 2^7 and under this arrange you have an interruptor that decides if
- the power of to over it  is  sum to the grand total or not. that is a binary system. All the  8 bits on and you have a 255 and
-then you can ad other codification systems on top of this one to use bytes to represent charts, like the utf-8 or the ASCCI
+This protocol of having 2 keys, one private and one public — to share the public so others encrypt the messages they send you, and to decrypt with your private key — is called SSH. Now, this only accounts for the security part.
 
-So your friends mesage is converted to aseries of bytes that are send via waves to the wifi router  on your friend 
-howse or   one of the  cell phone antenas she her cell phone is connected to (more than one at the same time) then this devices 
-convert it to and electrical signal that is sen via cable to a Internet Service provider that is 
+## Bits and Bytes
 
+A bit is an interrupter that can be either on or off. In electronics, this normally relates with having a low voltage or current (represented by a 0) or a high voltage or current (represented by a 1). A bit is either a 0 or a 1.
 
-## IP adressing and DNS
+If you group 8 bits, you have a byte. And with a byte, you can represent not 8 numbers but 256 numbers... how?
 
-## server client model and http methods and errors
-## domains and programming languajes
+### Binary System
+
+Imagine you have powers of 2 arranged from 2^0 to 2^7, and under this array, you have an interrupter that decides if the power of 2 over it is summed to the grand total or not. That is a binary system. All 8 bits on and you have 255.
+
+Then you can add other codification systems on top of this one to use bytes to represent characters, like UTF-8 or ASCII.
+
+So, your friend's message is converted to a series of bytes that are sent via waves to the Wi-Fi router at your friend's house, or to one of the cell phone antennas her cell phone is connected to (more than one at the same time). Then these devices convert it to an electrical signal that is sent via cable to an Internet Service Provider that is the company that conects you to the rest of the world. in colombia (Movistar,claro)
+
+## IP Addressing and DNS
+
+Just as your house has an address, your internet connection does too. All internet connections have an address. For this addressing, there are 2 protocols — IPv4 and IPv6. The first one uses 4 bytes to represent addresses. I'm sure you are used to seeing numbers like 127.0.0.1 (this is set as localhost).
+
+Nowadays, IPv4 is used to represent some form of local network, and it's being used at the same time as IPv6, which has 8 bytes to represent addresses. IPv6 uses the hexadecimal system to represent them, so they look like AAAB\:FFF::1234, where :: represents a space where all numbers inside are 0.
+
+Now, remembering all these numbers is hard. Imagine — wouldn't it be so much simpler to say to the Uber driver, "Take me to the house of Fulanito de Tal," and he immediately knew where to go? Well, the Uber driver is your browser, and there is an actual translator that allows this to happen. They are called Domain Name Servers. These servers translate the name of the place you want to go — e.g., minijuegos.com — to the IP address of the server in which minijuegos.com is hosted.
+
+## Server-Client Model and HTTP Methods and Errors
+
+## Domains and Programming Languages

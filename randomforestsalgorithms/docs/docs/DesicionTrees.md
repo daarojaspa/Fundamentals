@@ -70,6 +70,7 @@ Where:
 ---
 
 ## When to Stop Asking?
+Overfitting is like studying for a test by memorizing all past questions.  
 
 - The node you're in is completely **pure** (all samples are the same class).
 - The **maximum depth** you decided your tree should have is reached.
@@ -102,7 +103,6 @@ In essence, they work very similarly.
 
 ## Overfitting
 
-Overfitting is like studying for a test by memorizing all past questions.  
 - If the same question comes up, you’re fine.  
 - If a new question appears — you get it wrong.
 
@@ -131,4 +131,4 @@ The category with the most votes **wins**.
 
 Now get out and plant some trees, invite your friends , tell them what you learn here.
 
-If you want to see code, chek
+If you want to see code, chek [here](https://github.com/daarojaspa/Fundamentals/tree/main/randomforestsalgorithms)

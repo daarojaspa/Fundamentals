@@ -38,7 +38,7 @@ The same is happening with extensions. They are never shown in phones or PCs by 
 * `.txt`: For plain text files
 * `.jpg`: Joint Photographic Experts Group—an image file standard
 * `.mp4`: A container for videos. Video files are a composition of a codec file, an audio file, and a subtitles file. The extensions of these files are H264, MP3, and SRT
-* `.zip`: Compressed file that uses frequency and binary trees to build a compression algorithm. See the `compress.py` file in the repo for a little insight
+* `.zip`: Compressed file that uses frequency and binary tree to build a compression algorithm.
 * `.csv`: Comma-separated values—a very common format for tabulated data, but they are not database files
 
 All files have something called a header—same as the formats of non-volatile memories (drives). Here the first 4 letters are the extension of the file. Then there is other information called metadata. This is information about the file. You can see all this if you use a hexadecimal text editor.
@@ -46,3 +46,5 @@ All files have something called a header—same as the formats of non-volatile m
 ## Databases
 
 They can be relational and non-relational. The non-relational can be graph-based or document-based. Or you also could have key-value databases like Redis. The relational databases are the most common, I think, because they are the oldest ones. The purpose of all databases is to avoid redundancy in the data structure but to be easily written and read and also to store humongous amounts of data. For this, the language SQL is used. The most common database engines used are SQLite, MySQL, Oracle, and Postgres. Why does this matter? Well, now you’ve found your file or photo and you attempt to save it on the internet in someone else’s database (a social network, an email service, a message service—you pick). Let us connect to the internet.
+
+next week :V . By the way this is a follow up on the last post, if you haven't read it go out to a park and  do it.

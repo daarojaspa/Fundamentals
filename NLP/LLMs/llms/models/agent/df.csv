@@ -1,0 +1,16 @@
+product,price,quantity,revenue,rating,category
+Laptop,899.99,5,4499.95,4.5,Electronics
+Mouse,24.99,15,374.85,4.2,Electronics
+Keyboard,79.99,8,639.92,4.7,Electronics
+Monitor,299.99,3,899.97,4.6,Electronics
+Desk Chair,189.99,6,1139.94,4.3,Furniture
+Desk,349.99,2,699.98,4.8,Furniture
+Lamp,45.99,12,551.88,4.4,Furniture
+Notebook,3.99,50,199.50,4.1,Stationery
+Pen Set,12.99,25,324.75,4.0,Stationery
+Backpack,59.99,10,599.90,4.5,Accessories
+Water Bottle,15.99,20,319.80,4.3,Accessories
+Headphones,129.99,7,909.93,4.6,Electronics
+Webcam,89.99,4,359.96,4.4,Electronics
+USB Cable,9.99,30,299.70,3.9,Electronics
+Phone Case,19.99,18,359.82,4.2,Accessories

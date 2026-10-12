@@ -1,0 +1,74 @@
+# Secrets
+*.pem
+.env
+.env.*
+!.env.example
+
+# Virtual environments (any depth)
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Python bytecode / packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+.Python
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights / checkpoints / large binary state
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.bin
+*.gguf
+checkpoints/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# Data & local databases
+data/
+*.csv.gz
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo

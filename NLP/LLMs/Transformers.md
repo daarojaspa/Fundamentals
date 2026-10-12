@@ -1,0 +1,2 @@
+## Transformers 
+in this article we explain all the lego parts that are used to build one, atention is all you need is the paper that put all the parts in place to create this architecture , so a little recaap.  we have lematization stematization vectorization  so we transform  words in to vectors of numbers, then the transformer enters the peacture , it has encoder like networcs all in parallel , this  encoders after trainning have inside them a matrix call query , that when multiply with the vector  encodes the  the teaxt in a way that injects all the context inside it 

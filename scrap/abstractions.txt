@@ -1,0 +1,75 @@
+
+there are diferent types of methods
+
+static:is inside a class for organization purpuses , not functional purpuses .
+instance: can acces and modify an instance atributes or state
+class: modifies and change class level states, that are share by all instances( can make a human have 3 arms not only david )
+
+factory pattern: allows us to create objects withuth  espesifiying the exact type 
+strategy pattern: when you have diferent strategies to acomplish a goal u dont want the code of the strategy inside of the ob
+objet the uses the strategie but the selection of the strategie depents on 
+"triggers"and using conditionals for this makes the code ugly , so you separate the strategies in clases  and the usage 
+in a global method commun to all clasees  each class has the same structure (methods and  atributes names )  or interface 
+so the client is the object that defines the goal , so stay stable wehn new strategies are added , the if blocks move 
+outside the client 
+
+
+sequirity stuff
+user agent: is a header with info about your device  that  is share with thhe servers that you acces to
+finger print is data on the hardware and browser that you are  using to navigate to a page
+proxy is somewane or something that talks on your behave, in case of ip you have residential and enterpise proxies 
+session is the conbination of the cookies you are using , the finger print you have and the proxy ip from wich you make the request
+
+axtracting the info is not the hard part when scrapping , is  not getting detected so  basics  is  to 
+1 have  a  human like finger print  and  do the request directly  to the api url 
+2 did not work ? then capture  request and re use 
+3 do browser automation  and fallback logic wich entitles (search  layer validation layer aession manager )
+
+robots.txt is a file that is directly targeted to crawlers, but that can give valuable information for scrapers
+
+when it tells that specific user agents are disallow , now you know they monitor user agents and will spot you if 
+your user agent makes no sens
+also specifies  sensitive end points when  you see they are disallow 
+and the sited maps that are safe to just  scrape with no use of ui 
+if they say something like crawl-delay 3 that can mean you cna only send a request every 3 seconds 
+it also tells you how complex is the site, dependingon how much tracking endpoints, disallows, user agents and site maps
+more complex sites more strict atnti bot mesures
+you have to infer other things from the names of those sensitive end points
+/tracking/: have antibot systenms with behavior traking 
+/js_traking: telemetry and performance traking and detection of headless browsers 
+/fragment.*:  the site is dynamic  so the html is partial and it probably uses ajax
+/anysearch.*: the results on a search are also loaded dynamiclly 
+/event :it tracks user action logic 
+/xfg: or wear names like that  could be an antibot  system, do they have many user agents blocked ?
+
+
+we already knew Restful endpints, that is basic for working with software, i thougth that i least well there are also 
+graphQl:
+RPC that looks like function calls
+ahax:
+analitics/antibots
+
+ 
+now  for  data management is important to have in mind the concept of idempotency, a request send one time has the same efectin the server  as the exact same requested send multiple times, not all api request metoths are  idempotent by default
+so to make them idempotent each request is  pair with a unique identifier  using  a unike key   a combination of user  and request meta data and hashed  request , then saved in a diferent data base that could have persistance any where from 10 minutes to 3 days 
+
+flow 
+Power BI (parameters)
+        ↓
+Your Python API (FastAPI later)
+        ↓
+generate request_id
+        ↓
+check SQLite (idempotency)
+        ↓
+run Apify actor (dynamic input)
+        ↓
+wait for completion
+        ↓
+fetch dataset (handle pagination)
+        ↓
+deduplicate (hotel + dates)
+        ↓
+store (Sheets or DB)
+        ↓
+log request_id in SQLite

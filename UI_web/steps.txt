@@ -1,0 +1,220 @@
+# What they actually test
+
+## 1. Web fundamentals (core)
+
+You must be sharp on:
+
+* **HTML** → structure, semantics
+* **CSS** → layout, responsiveness
+* **JavaScript** → DOM, events, async basics
+
+Key idea:
+
+> Not “how to code”, but *how UI behaves*
+
+---
+
+## 2. Testing mindset (VERY important)
+
+This is the differentiator.
+
+They want:
+
+* attention to detail
+* ability to detect inconsistencies
+* validation against specs
+
+Think like:
+
+> “Does this behave EXACTLY as intended?”
+
+---
+
+## 3. Communication under constraints
+
+You must:
+
+* explain clearly
+* be structured
+* sound precise (not guessing)
+
+---
+
+# 3-Day Focused Plan (Adjusted)
+
+## Day 1 — Web Core (Behavior > Syntax)
+
+### What to master
+
+* DOM structure
+* CSS box model
+* Flexbox vs Grid
+* Event handling
+
+### How to train (do this, not tutorials)
+
+Take a simple page and:
+
+1. **Inspect it (DevTools)**
+
+   * Identify layout system
+   * Trace CSS rules
+   * Modify live
+
+2. **Rebuild a small UI**
+   Example:
+
+   * form with validation
+   * responsive card layout
+
+### Your task (important)
+
+Build:
+
+* input form
+* validation (JS)
+* error messages (UI)
+
+Do NOT use frameworks.
+
+---
+
+## Day 2 — Testing + Edge Thinking
+
+This is your advantage zone.
+
+### Learn this mental model:
+
+For any UI:
+
+* Structure (HTML)
+* Style (CSS)
+* Behavior (JS)
+* Edge cases
+
+---
+
+### Practice like this:
+
+Take your Day 1 form and test:
+
+Ask:
+
+* What if input is empty?
+* What if very long text?
+* What if mobile screen?
+* What if slow network?
+
+Then **break your own UI**
+
+---
+
+### Learn key concepts
+
+* Functional vs visual bugs
+* Cross-browser issues
+* Responsive design failures
+* Accessibility basics (important signal)
+
+---
+
+### Exercise (critical)
+
+Write test cases manually:
+
+Example:
+
+* “User enters invalid email → error message appears”
+* “Button disabled when form invalid”
+
+This is exactly what they want.
+
+---
+
+## Day 3 — Communication + Simulation
+
+### You will be evaluated on how you speak
+
+Use this structure ALWAYS:
+
+1. What I observe
+2. What is expected
+3. The gap
+4. Proposed fix
+
+---
+
+### Practice this
+
+Take a UI (any site) and say:
+
+> “The button is misaligned on mobile. Expected center alignment. Likely due to flex container misconfiguration. I would inspect…”
+
+---
+
+### Mock questions you must answer out loud
+
+1. “How would you test a login form?”
+2. “A UI looks fine on Chrome but broken on Safari — what do you do?”
+3. “How do HTML, CSS, and JS interact?”
+
+---
+
+# Key Concepts (compress)
+
+## HTML
+
+* Semantic structure matters (accessibility + clarity)
+
+## CSS
+
+* Layout systems:
+
+  * Flexbox → 1D
+  * Grid → 2D
+* Box model = source of many bugs
+
+## JavaScript
+
+* DOM manipulation
+* Event-driven behavior
+
+## Testing
+
+* Think in **scenarios, not code**
+
+---
+
+# High-value practical drill (do this)
+
+Tonight:
+
+1. Build a small form
+2. Add validation
+3. Write 10 test cases
+4. Break it intentionally
+5. Explain issues out loud
+
+---
+
+# Critical mistake to avoid
+
+Do NOT:
+
+* memorize syntax
+* overfocus on frameworks
+* ignore testing
+
+---
+
+# Next step
+
+Send me:
+
+* a small UI you build (or describe it)
+
+I’ll:
+
+* critique like an interviewer
+* simulate a real test scenario
+* push your reasoning (this is where you improve fast)

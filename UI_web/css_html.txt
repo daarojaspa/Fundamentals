@@ -1,0 +1,39 @@
+Html is just  a mark up languaje to jerarquy to the text that we wnat on a page , or the inputs that we want our users to do 
+is basicly a way to give jerarquical structur to all that we want in our interface,then the browser renders this inital  content structure  as  the Digital  Object Model , wich will interact with js   with this object model we can change  html  dynamicly  with out having to re charge the entire page .
+there are 3 ways to interact with this js object and change the html 
+- methods : Asocieted to the dom like document.query.selector() 
+- sub objects: like each of the tags in the html and they also have their own methods like eventlistener
+- properties : atributes .style.properti
+
+CSS is for guiving it visual apealling whithaout  damaging structure  it has a box model where every element is a box with content,
+pading border and margin , this boxes the main issu with css is to position and layoud  all this boxes
+in a way the format not only looks good but makes the information mor undertandable for visual users 
+for this  knowing that we can create a set of rules for diferent elements or group of elements using specificity selectors and that the herarchy on how those selectors get picked is top to button in the syle sheet 
+the rules  or properties that control positioning and lwyaout are the folowwing 
+
+DISPLAY : 
+
+-block : a new line in the screen for each element take as much horizontal as it cans 
+- in line : Never a new line for each element only takes as much horizontal as it needs . with and higth does not exist here 
+- inline-block : in line with higth and with 
+-grid : the idea is that you devide the available space of the container  in  a grid , deciding how many columns and rows ,  inside 
+that grid you can make elements to take more than one cell at the time , so at the mout basic  template you cna imagine a
+ numpath  like grid ( yes you can define gaps between the cells )
+- flex: automaticaly  a 2 axis sstem is use to devide the cotainer available space , you can change the main axes  to  
+vertical with the flex axis propertie  
+ justify - content will aling the items across the main acces and aling items will do it in the secundary  axis i think  from a accesibility point of vew  you should be carfull when using this because you change the order of the  items in your container
+ , but only visualy so if a  user uses keyboard focus to navigate the content or screen readers, and the meaning of the informat
+ion depends on the order you set visually with flex box well huston we got a problem .
+
+POSITION		
+- relative  to where should be in default 
+- fix : will follow the user 
+- sticky : will folow the user from a particular position
+
+now we have 2 object models the document and the css independent now the browser overlapdem and renders them  creathing a 
+render domain object that is the represntation of both  after this the lay out of each of the elements in the page has to bee 
+calculated  a demanding task , and it has to be done every time  you change font sizes  ad or remove elements from the dom changing
+  sizes or box model properties  and then is the repainting that is triger by the change of all properties that are not 
+ layout oriented  less expencive but still needed to have in acount when css animations are use.
+
+and  about tjs  the main usage is to manipulate the dom so dynamical content can be render as we talked earlier, but it also uses events that is when the user do something on the page , cliking hover, press a key  they can be inline events created in the html it's self ,  or you can use the add listener  dom  function in a separete js file  just be aware  if you use  a standar function or an arrow funtion to know where this is pinting at 
